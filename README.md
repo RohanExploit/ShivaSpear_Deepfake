@@ -1,52 +1,53 @@
-# 🛡️ Deepfake Image & Audio Detection
-#Innoverse
+# 🛡️ ShivaSpear Deepfake Detection
+
 ## 🚀 Overview
-**ShivaSpear Deepfake Detection** leverages AI to detect manipulated images and audio, combating misinformation with cutting-edge machine learning.
+**ShivaSpear Deepfake Detection** is an AI-powered tool for identifying deepfake images, audio, and fake news. It leverages machine learning and natural language processing (NLP) to combat misinformation.
 
 ## 🔥 Key Features
-✅ **Image & Audio Detection** – Identifies deepfakes with high accuracy.  
-✅ **Advanced AI Models** – Uses CNNs (EfficientNet, ResNet, Xception).  
-✅ **Preprocessing Tools** – OpenCV & Librosa for data refinement.  
-✅ **User-Friendly UI** – Streamlit-powered web app.  
-✅ **Real-time Predictions** – Fast inference for instant results.  
+✅ **Deepfake Image & Audio Detection** – High-accuracy identification of manipulated media.  
+✅ **Fake News Classification** – NLP-powered fake news detection.  
+✅ **Preprocessing Tools** – OpenCV, Librosa, and NLP libraries for data refinement.  
+✅ **User-Friendly UI** – Streamlit-powered web app for real-time analysis.  
+✅ **Fast & Efficient** – Optimized models for quick inference.  
 
 ## 🛠️ Tech Stack
-| **Category** | **Technologies** |
-|-------------|-----------------|
-| ML & AI | TensorFlow, Keras, PyTorch (optional), Scikit-learn |
-| Image Processing | OpenCV, Pillow (PIL) |
-| Audio Processing | Librosa, SciPy |
-| Data Handling | NumPy, Pandas, Matplotlib, Seaborn |
-| Deployment | Streamlit |
+| **Category**        | **Technologies** |
+|---------------------|-----------------|
+| ML & AI            | TensorFlow, Keras, PyTorch (optional), Scikit-learn |
+| Image Processing   | OpenCV, Pillow (PIL) |
+| Audio Processing   | Librosa, SciPy |
+| NLP & Text Analysis | NLTK, SpaCy, TF-IDF, Word Embeddings |
+| Data Handling      | NumPy, Pandas, Matplotlib, Seaborn |
+| Deployment         | Streamlit |
 
 ## ⚙️ Implementation Workflow
 
-🔹 **Step 1: Data Preprocessing**  
-📌 **Tools:** OpenCV, Pillow, Librosa, SciPy  
-✔ Collect & clean datasets (FaceForensics++, Celeb-DF, DFDC, ASVspoof).  
-✔ Resize images, normalize pixels, extract MFCCs from audio.  
-✔ Detect faces & standardize audio sample rates.  
+### 🔹 Deepfake Image Detection
+📌 **Tech Stack:** TensorFlow, OpenCV, Scikit-learn  
+✔ Collect & preprocess images (FaceForensics++, Celeb-DF, DFDC).  
+✔ Train CNN models (Xception, EfficientNet, ResNet).  
+✔ Evaluate accuracy with precision, recall, and F1-score.  
+✔ Deploy model using Streamlit.  
 
-🔹 **Step 2: Model Training**  
-📌 **Tools:** TensorFlow/Keras, PyTorch  
-✔ Fine-tune pre-trained CNN models.  
-✔ Apply data augmentation techniques.  
-✔ Optimize classification with Binary Cross-Entropy Loss.  
+### 🔹 Deepfake Audio Detection
+📌 **Tech Stack:** Librosa, TensorFlow, Scikit-learn  
+✔ Collect & preprocess datasets (ASVspoof, FakeAVCeleb).  
+✔ Extract MFCCs, spectrograms, and chroma features.  
+✔ Train CNN-based classification models.  
+✔ Deploy using an interactive web app.  
 
-🔹 **Step 3: Evaluation & Metrics**  
-📌 **Tools:** Scikit-learn, Matplotlib  
-✔ Track accuracy, precision, recall, and ROC-AUC scores.  
-✔ Confusion matrix analysis for insights.  
-
-🔹 **Step 4: Deployment & UI**  
-📌 **Tools:** Streamlit  
-✔ Load trained models into an interactive web app.  
-✔ Enable users to upload files for detection.  
-✔ Display predictions with probability scores.  
+### 🔹 Fake News Detection
+📌 **Tech Stack:** NLTK, SpaCy, Scikit-learn  
+✔ Collect & clean text datasets (FakeNewsNet, LIAR, Kaggle Fake News).  
+✔ Convert text into TF-IDF vectors or embeddings.  
+✔ Train Logistic Regression classifier.  
+✔ Evaluate with confusion matrix and performance metrics.  
+✔ Deploy on Streamlit for real-time analysis.  
 
 ## 📊 Performance Metrics
 ✅ **Image Detection Accuracy:** 90-98%  
 ✅ **Audio Detection Accuracy:** 85-95%  
+✅ **Fake News Classification Accuracy:** 80-95%  
 ✅ **Inference Speed:** <1 second per input  
 
 ## 🚀 Quick Start Guide
@@ -63,18 +64,21 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
-4️⃣ **Upload an Image or Audio File** to detect deepfakes.
+4️⃣ **Upload an Image, Audio File, or News Text** to analyze deepfakes.
 
 ## 📚 References
 🔗 FaceForensics++: [GitHub](https://github.com/ondyari/FaceForensics)  
 🔗 Celeb-DF Dataset: [GitHub](https://github.com/yuezunli/celeb-deepfake)  
 🔗 ASVspoof Dataset: [Edinburgh DataShare](https://datashare.ed.ac.uk/handle/10283/3336)  
+🔗 FakeNewsNet: [GitHub](https://github.com/KaiDMML/FakeNewsNet)  
 
 ## 👥 Contributors
 - **Rohan Gaikwad** – Project Lead  
-- **Team Members** – Satyam Kamdam , Swapnil koli , Devshri Damle
-📧 **Contact:** [itzrohan007@gmail.com] | 🔗 [linkedin.com/in/rohangaikwadlink]  
+- **Team Members** – Swapnil Koli , Devshri Damle , Satyam Kadam
+📧 **Contact:** [itzrohan007@gmail.com] | 🔗 [www.linkedin.com/in/rohanvijaygaikwad]  
 
- *If this project helps you, consider starring the repo!* 
+⭐ *If this project helps you, consider starring the repo!* ⭐
+
+ 
 
 
