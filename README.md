@@ -74,7 +74,7 @@ streamlit run app.py
 
 ## 👥 Contributors
 - **Rohan Gaikwad** – Project Lead  
-- **Team Members** – Swapnil Koli , Devshri Damle , Satyam Kadam
+- **Team Members** – Devshri Damle , Satyam Kadam
 📧 **Contact:** [itzrohan007@gmail.com] | 🔗 [www.linkedin.com/in/rohanvijaygaikwad]  
 
 ⭐ *If this project helps you, consider starring the repo!* ⭐
